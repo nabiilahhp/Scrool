@@ -186,6 +186,11 @@ main {
   opacity: 1;
   padding: 5px 0;
   transition: opacity 0.3s 1s linear;
+  max-width: 300px;
+}
+
+.frame #cdawrap a {
+  color: var(--color-text) !important;
 }
 
 .loading .frame #cdawrap {
